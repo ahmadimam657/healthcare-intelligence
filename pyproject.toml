@@ -1,0 +1,27 @@
+[project]
+name = "healthcare-intelligence"
+version = "0.1.0"
+description = "Python Based Healthcare Data Analyzer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kagglehub>=1.0.2",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.3",
+    "pre-commit>=4.6.2",
+    "pyright>=1.1.411",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "pyyaml>=6.0.3",
+    "ruff>=0.16.4",
+]

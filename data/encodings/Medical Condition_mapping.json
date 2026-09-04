@@ -1,0 +1,8 @@
+{
+  "arthritis": 0,
+  "asthma": 1,
+  "cancer": 2,
+  "diabetes": 3,
+  "hypertension": 4,
+  "obesity": 5
+}

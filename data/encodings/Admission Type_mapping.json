@@ -1,0 +1,5 @@
+{
+  "elective": 0,
+  "emergency": 1,
+  "urgent": 2
+}
